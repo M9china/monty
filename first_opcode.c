@@ -122,7 +122,7 @@ void _swap(stack_t **doubly, unsigned int cline)
 
 	if (m < 2)
 	{
-		dprintf(2, "L%u: can't swap, stack too short\n", cline);
+		dprintf(2, "L%u: can't swap, stack too short", cline);
 		free_myGlobals();
 		exit(EXIT_FAILURE);
 	}
